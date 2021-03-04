@@ -1,12 +1,12 @@
 # electron-wasm-playground
 
-Install dependencies:
+1. Install dependencies:
 `npm install`
 
+2. Setup emsdk.
 
-Build `ts`/`tsx` files:
-`npm run build` or `npm run build:watch`
+3. Build:
+`npm run build`
 
-
-Run in development:
+4. Run in development:
 `npm start`

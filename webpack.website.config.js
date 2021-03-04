@@ -24,7 +24,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
-      },
+      }
     ],
   },
   resolve: {
@@ -32,6 +32,7 @@ module.exports = {
     // ie we can write `import 'index'` instead of `import 'index.ts'`
     extensions: ['.ts', '.tsx', '.js'],
   },
+  target: 'electron-renderer',
   plugins: [
     // This reads index.html from src, injects a <script> tag for index.js, and then copies it to the output dir
     new HtmlWebpackPlugin({
